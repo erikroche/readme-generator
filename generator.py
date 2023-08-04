@@ -25,7 +25,7 @@ def generate_readme(project_name, directory_path):
 
     files_in_directory = os.listdir(directory_path)
 
-    code_file_extensions = [".py", ".java", ".js", ".html", ".css", "Dockerfile"]
+    code_file_extensions = [".py", ".java", ".js", ".html", ".css", "Dockerfile", ".sh"]
     relevant_files = []
     
     for file in files_in_directory:
