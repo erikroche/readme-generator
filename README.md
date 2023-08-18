@@ -28,6 +28,7 @@ Before running the project, make sure you have set up the necessary dependencies
    ```
    export OPENAI_KEY=<your-api-key>
    ```
+   Optional: add your Open AI key as an environment variable on startup inside .zshrc/.bashrc for more information view [this](https://saturncloud.io/blog/setting-environment-variables-on-os-x/#setting-environment-variables-through-the-command-line) article
 
    Replace `<your-api-key>` with your actual OpenAI API key.
 
